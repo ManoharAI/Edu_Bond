@@ -1,8 +1,8 @@
-# Edu_Bond: Your Free Online Learning Companion
+# Edu_Bond: Peer-to-Peer Learning Platform
 
 ## Overview
 
-Edu_Bond is an innovative e-learning platform designed to democratize education by making high-quality courses and learning materials accessible to everyone, completely free of cost. Unlike traditional e-learning platforms that offer pre-existing courses, Edu_Bond focuses on peer-to-peer learning, where students can connect with friends online, share knowledge, and collaborate on learning materials.
+Edu_Bond is an innovative e-learning platform that democratizes education by providing free access to high-quality courses and learning materials. Unlike traditional platforms that offer pre-existing courses, Edu_Bond focuses on peer-to-peer learning, enabling students to connect with friends online, share knowledge, and collaborate on learning materials. Additionally, Edu_Bond ensures secure access through email verification via OTP during the login process.
 
 ## Key Features
 
@@ -10,14 +10,9 @@ Edu_Bond is an innovative e-learning platform designed to democratize education 
 - **Free Access**: All learning materials and courses are available at no cost.
 - **File Sharing**: Easily share files, notes, and links with your friends.
 - **Chat Functionality**: Communicate and collaborate in real-time with your learning partners.
-
-## Mission
-
-The primary goal of Edu_Bond is to make education accessible to all, especially those who cannot afford expensive courses. By leveraging the power of peer-to-peer learning, we aim to create a community where knowledge is freely shared and everyone has the opportunity to learn and grow.
+- **Email Verification**: Secure login process with OTP-based email verification.
 
 ## Tech Stack
-
-Edu_Bond is built using a combination of modern technologies to ensure a robust and scalable platform. Here are the key components of our tech stack:
 
 ### Frontend
 
@@ -87,6 +82,9 @@ Edu_Bond is built using a combination of modern technologies to ensure a robust 
      DB_PASSWORD=yourpassword
      DB_NAME=edubond
      JWT_SECRET=your_jwt_secret
+     EMAIL_SERVICE=your_email_service
+     EMAIL_USER=your_email_user
+     EMAIL_PASS=your_email_password
      ```
 
 3. **Database Setup**:
